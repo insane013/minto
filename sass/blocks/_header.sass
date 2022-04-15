@@ -1,0 +1,79 @@
+.header
+  border-top: 10px solid $ico-color
+  &__container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-top: 30px
+    padding-bottom: 30px
+
+.slider
+  &-pro
+    width: 100%
+    //border: 3px solid #000
+    .sp-arrow
+      top: 50%
+      width: 35px
+      height: 60px
+      transform: translateY(-50%)
+      background-color: #82699d
+      &::before
+        display: none
+      &::after
+        position: absolute
+        width: 30px
+        height: 35px
+        transform: none
+        left: 0
+        top: 50%
+        transform: translateY(-50%)
+        background-image: url(../img/arrow.png)
+        background-repeat: no-repeat
+        background-color: transparent
+        background-size: contain
+    .sp-previous-arrow
+      left: 0
+    .sp-next-arrow
+      right: 0
+      &::after
+        transform: rotateY(180deg) translateY(-50%)
+        right: 0
+        left: auto
+
+
+    .slide
+      // position: relative
+      display: flex
+      justify-content: center
+      align-items: center
+      &__bg
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-image: url('../img/slide-1.png')
+        background-size: cover
+        background-position: top
+      &__text
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        position: relative
+        z-index: 1
+      &__title
+        font-size: 117px
+        line-height: 75%
+        font-family: StRyde
+        color: #fff
+        font-weight: 400
+        margin: 0
+        margin-bottom: 30px
+        text-shadow: -7px 5px 4px #000
+      &__subtitle
+        font-family: Myriad Pro
+        font-size: 31px
+        line-height: 36px
+        color: #fff
+

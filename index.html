@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Minto</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="slider-pro/slider-pro.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo header__logo" href="#">
+          <img src="img/logo.png" alt="">
+          <span>minto</span>
+        </a>
+        <nav class="menu header__menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <img src="img/home.png" alt="">
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <img src="img/about.png" alt="">
+                <span>About us</span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <img src="img/services.png" alt="">
+                <span>Services</span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <img src="img/contact.png" alt="">
+                <span>Contact us</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.menu header__menu -->
+        <nav class="menu--mobile" id="mobile-menu">
+          <ul class="menu__list--mobile">
+            <li class="menu__item--mobile">
+              <a href="#">Home</a>
+            </li>
+            <li class="menu__item--mobile">
+              <a href="#">About us</a>
+            </li>
+              
+            <li class="menu__item--mobile">
+              <a href="#">Services</a>
+            </li>
+            <li class="menu__item--mobile">
+              <a href="#">Contact us</a>
+            </li>
+          </ul>
+          <!-- /.menu__list -->
+        </nav>
+        <div class="screen-overlay" data-interact='close-menu' data-href="#mobile-menu"></div>
+        <button class="menu-btn" data-interact="toggle-menu" data-href="#mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <!-- /.container header__container -->
+    </header>
+    <!-- /.header -->
+
+    <div class="slider-section">
+      <div class="container slider-section__container">
+        <div class="slider-pro" id="main-slider">
+          <div class="sp-slides">
+            <!-- Slide 1 -->
+            <div class="slide sp-slide">
+              <img class="slide__bg" src="img/slide-1.png" />
+              <div class="slide__text">
+                <h2 class="slide__title">Minto</h2>
+                <span class="slide__subtitle">A minimal Web Design from cssauthor.com</span>
+              </div>
+              <!-- /.slide__text -->
+            </div>
+        
+            <!-- Slide 2 -->
+            <div class="slide sp-slide">
+              <img class="slide__bg" src="img/slide-1.png" />
+              <div class="slide__text">
+                <h2 class="slide__title">SLIDE-2</h2>
+                <span class="slide__subtitle">A minimal Web Design from cssauthor.com</span>
+              </div>
+              <!-- /.slide__text -->
+            </div>
+        
+            <!-- Slide 3 -->
+            <div class="slide sp-slide">
+              <img class="slide__bg" src="img/slide-1.png" />
+              <div class="slide__text">
+                <h2 class="slide__title">SLIDE-3</h2>
+                <span class="slide__subtitle">A minimal Web Design from cssauthor.com</span>
+              </div>
+              <!-- /.slide__text -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container slider-section__container -->
+    </div>
+    <!-- /.slider-section -->
+
+    <div class="quote-section">
+      <div class="container quote-section__container">
+        <div class="quote-section__quote">
+          <span class="bold">Lorem ipsum dolor sit amet,</span> consectetur adipisicing elit. Doloremque, enim, sed dignissimos fuga quas nostrum esse ipsam voluptate deleniti assumenda ab aliquid officia tempora distinctio magni doloribus iste!
+        </div>
+      </div>
+      <!-- /.quote__container -->
+    </div>
+    <!-- /.quote__section -->
+
+    <div class="other">
+      <div class="container other__container">
+        <div class="card other__card">
+          <div class="card__left">
+            <div class="card__img"></div>
+          </div>
+          <!-- /.card__left -->
+          <div class="card__right">
+            <div class="card__img card__img--mobile"></div>
+            <h2 class="card__title">Lorem ipsum dolor sit amet</h2>
+            <p class="card__text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+              sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            </p>
+            <a href="#" class="card__link">
+              Read more
+              <img src="img/see-more.png" alt="">
+            </a>
+          </div>
+          <!-- /.card__right -->
+        </div>
+        <!-- /.other__item -->
+      </div>
+      <!-- /.container other__container -->
+    </div>
+    <!-- /.other -->
+
+    <div class="partners">
+      <div class="container partners__container">
+        <div class="partners__head">
+          <h2 class="partners__title"><span>Where</span> We Have Been Featured</h2>
+          <div class="partners__decor-line"></div>
+        </div>
+        <div class="partners__grid">
+          <div class="partners__item">
+            <img src="img/about-com.png" alt="">
+          </div>
+          <div class="partners__item">
+            <img src="img/mashable.png" alt="">
+          </div>
+          <div class="partners__item">
+            <img src="img/tech-crunch.png" alt="">
+          </div>
+          <div class="partners__item">
+            <img src="img/buisness-week.png" alt="">
+          </div>
+        </div>
+        <!-- /.partners__banners -->
+      </div>
+      <!-- /.partners__container -->
+    </div>
+    <!-- /.partners -->
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__copy">© Copyright 2010 - All rights reserved</div>
+        <div class="socials footer__socials">
+          <a class="socials__link" href="">
+            <svg class="icon socials__ico">
+              <use xlink:href="img/socials.svg#facebook"></use>
+            </svg>
+          </a>
+          <a class="socials__link" href="">
+            <svg class="icon socials__ico">
+              <use xlink:href="img/socials.svg#twitter"></use>
+            </svg>
+          </a>
+        </div>
+        <!-- /.socials footer__socials -->
+      </div>
+      <!-- /.container footer__container -->
+    </footer>
+    <!-- /.footer -->
+
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="slider-pro/jquery.sliderPro.min.js"></script>
+    <!-- main -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

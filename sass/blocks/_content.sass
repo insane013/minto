@@ -1,0 +1,69 @@
+.quote-section
+  &__container
+    padding: 40px 10px
+  &__quote
+    border: 1px solid #bfbfbf
+    border-left: none
+    border-right: none
+    padding: 20px
+    text-align: center
+    font-family: 'segoe ui'
+    font-size: 24px
+    line-height: 36px
+    font-weight: 400
+    font-style: italic
+    color: $dark-text
+    .bold
+      font-weight: 700
+      color: $bold
+
+.other
+  &__container
+    display: flex
+    flex-direction: column
+  .card
+    display: grid
+    grid-template-columns: 320px 1fr
+    grid-column-gap: 40px
+    padding-bottom: 50px
+    &__right
+      padding-top: 35px
+    &__img
+      background-image: url('../img/card-1.png')
+      border-radius: 50%
+      border: 10px solid #dfdfdf
+      box-shadow: 0px 0px 5px 10px #f0f0f0
+      background-size: 540px
+      background-position: -45px center
+      background-repeat: no-repeat
+      width: 275px
+      height: 275px
+      filter: blur(2px)
+      &--mobile
+        display: none
+    &__title
+      font-family: 'segoe ui'
+      font-weight: 700
+      font-size: 31px
+      line-height: 36px
+      color: $dark-text
+      margin: 0
+      margin-bottom: 20px
+    &__text
+      font-family: 'segoe ui'
+      font-size: 15px
+      line-height: 28px
+      color: $text
+      margin: 0
+    &__link
+      display: flex
+      align-items: center
+      text-decoration: none
+      font-family: 'segoe ui'
+      font-size: 13px
+      line-height: 36px
+      color: $bold
+      font-style: italic
+      float: right
+      img
+        margin-left: 10px

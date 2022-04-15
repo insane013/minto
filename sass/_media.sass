@@ -1,0 +1,205 @@
+@media (max-width: 1199px)
+  .container
+    max-width: 900px
+  .partners
+    &__item
+      padding: 0
+      height: 80px
+
+@media (max-width: 991px)
+  .container
+    max-width: 700px
+    
+  .header
+    &__logo
+      font-size: 25px
+  
+  .slider-pro
+    .slide
+      &__title
+        font-size: 90px
+      &__subtitle
+        font-size: 25px
+  
+  .other
+    .card
+      display: flex
+      flex-direction: column
+      padding-bottom: 25px
+      &__right
+        padding-top: 0
+
+      &__img
+        display: none
+        &--mobile
+          display: inline-block
+          float: left
+          margin-right: 20px
+          margin-bottom: 20px
+          width: 200px
+          height: 200px
+
+  .quote-section
+    &__quote
+      font-size: 20px
+
+  .partners
+    &__head
+      margin-bottom: 20px
+    &__item
+      img
+        width: 110px
+
+  .menu__item:not(:last-child)
+    margin-right: 25px
+  
+@media (max-width: 767px)
+  .container
+    max-width: 90%
+  
+  .slider-pro
+    .slide
+      height: 300px
+    .sp-arrow
+      width: 25px
+      height: 45px
+      &::after
+        width: 25px
+        height: 25px
+  .other
+    .card
+      &__title
+        font-size: 27px
+        margin-bottom: 10px
+  
+  .header
+    &__menu
+      display: none
+    &__container
+      padding: 15px 0
+  .menu-btn
+    display: flex
+  
+  .menu
+    &--mobile
+      display: flex
+      padding: 30px 10px
+      background-color: #f0f0f0
+      background-size: cover
+      background-repeat: no-repeat
+      width: 100%
+      position: absolute
+      z-index: 11
+      top: -1000px
+      right: 0
+      visibility: hidden
+      transition-property: all
+      transition-duration: 1s
+      &--visible
+        top: -2px
+        visibility: visible
+    &__list--mobile
+      font-family: 'Ubuntu'
+      font-weight: 400
+      font-size: 20px
+      line-height: 24px
+      letter-spacing: 2px
+      list-style: none
+      margin: 0
+      padding: 0
+      display: flex
+      flex-direction: column
+      align-items: flex-start
+      width: 100%
+    &__item--mobile
+      margin-bottom: 19px
+      padding: 0 15px
+      width: 100%
+      text-transform: uppercase
+      text-align: center
+      &:last-child
+        margin-bottom: 0
+      a
+        text-decoration: none
+        color: $light-text
+        display: block
+        width: 100%
+
+@media (max-width: 511px)
+  .menu-btn
+    width: 20px
+    height: 20px
+  .header
+    position: fixed
+    z-index: 11
+    top: 0
+    left: 0
+    width: 100%
+    background-color: #f0f0f0
+    &__container
+      padding: 20px 0
+    &__logo
+      img
+        width: 40px
+        height: 40px
+
+  .slider-section
+    padding-top: 130px
+    .slider-pro
+      .slide
+        &__title
+          font-size: 50px
+        &__subtitle
+          font-size: 20px
+          text-align: center
+
+  .partners
+    &__container
+      padding-bottom: 30px
+    &__grid
+      grid-template-columns: repeat(2, 1fr)
+    &__head
+      flex-direction: column
+    &__decor-line
+      width: 100%
+    &__title  
+      font-size: 20px    
+
+  .menu
+    &--mobile
+      height: 100vh
+    &__list--mobile
+      justify-content: center
+
+  .other
+    .card
+      &__title
+        font-size: 25px
+        margin-bottom: 15px
+      &__tag
+        margin-bottom: 15px
+
+      &__img
+        &--mobile
+          width: 100%
+          box-shadow: none
+          border: none
+          border-radius: 0
+          filter: none
+
+  .quote-section
+    &__container
+      padding: 20px 0
+    &__quote
+      padding: 10px 0
+      font-size: 17px
+      line-height: 150% 
+  
+  .footer
+    &__container
+      padding: 20px 0
+      
+    &__copy
+      font-size: 11px
+      line-height: 16px
+
